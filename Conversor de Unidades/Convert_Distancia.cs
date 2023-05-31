@@ -43,7 +43,7 @@ public class Convert_Distancia
         double km = metros / 1000;
         double milhas = metros * 0.000621371;
 
-        Console.WriteLine("Distância em quilômetros: " + km);
-        Console.WriteLine("Distância em milhas: " + milhas);
+        Console.WriteLine("Distância em quilômetros: " + km.ToString("N2"));
+        Console.WriteLine("Distância em milhas: " + milhas.ToString("N2"));
     }
 }

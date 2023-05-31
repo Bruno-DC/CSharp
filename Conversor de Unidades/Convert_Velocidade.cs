@@ -43,7 +43,7 @@ public class Convert_Velocidade
         double ms = kmh * 0.277778;
         double mph = kmh * 0.621371;
 
-        Console.WriteLine("Velocidade em m/s: " + ms);
-        Console.WriteLine("Velocidade em mph: " + mph);
+        Console.WriteLine("Velocidade em m/s: " + ms.ToString("N2"));
+        Console.WriteLine("Velocidade em mph: " + mph.ToString("N2"));
     }
 }

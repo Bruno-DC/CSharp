@@ -45,7 +45,7 @@ public class Convert_Temperatura
 			double fahrenheit = celsius * 9 / 5 + 32;
 			double Kelvin = celsius + 273.15;
 
-			Console.WriteLine("Temperatura em fahrenheit: " + fahrenheit);
-			Console.WriteLine("Temperatura em Kelvin: " + Kelvin);		
+			Console.WriteLine("Temperatura em fahrenheit: " + fahrenheit.ToString("N2"));
+			Console.WriteLine("Temperatura em Kelvin: " + Kelvin.ToString("N2"));		
 	}
 }
